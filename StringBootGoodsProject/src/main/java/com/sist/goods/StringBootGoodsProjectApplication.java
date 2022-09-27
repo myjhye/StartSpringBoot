@@ -1,11 +1,11 @@
-package com.sist.web;
+package com.sist.goods;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.sist.controller"}) // xml없이 코딩
+@ComponentScan(basePackages = {"com.sist.goods.controller","com.sist.goods.vo","com.sist.goods.service","com.sist.goods.dao"})
 public class StringBootGoodsProjectApplication {
 
 	public static void main(String[] args) {
